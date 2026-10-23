@@ -11,6 +11,7 @@ local GameList = {
     [9872472334] = "https://api.xhider.xyz/files/v4/loaders/4955e760c9f9b495f25dcdb2ea54d7e5.lua", -- Evade
     [119091355492870] = "https://api.xhider.xyz/files/v4/loaders/5e11f8e2650b675806aaa7ccd238f1f3.lua", -- RockFruit Sea 1
     [132854526011923] = "https://api.xhider.xyz/files/v4/loaders/a0d3fb06848e377e3c760eee682ea5b8.lua", -- RockFruit Sea 2
+    [82878101790702] = "https://api.xhider.xyz/files/v4/loaders/5e11f8e2650b675806aaa7ccd238f1f3.lua", -- Raid Rockfruitsea1
     [85211729168715] = "BLOX_FRUITS_SELECTOR", -- Blox Fruits
     [79091703265657] = "BLOX_FRUITS_SELECTOR", -- Blox Fruits
     [100117331123089] = "BLOX_FRUITS_SELECTOR", -- Blox Fruits
