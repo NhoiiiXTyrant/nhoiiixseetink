@@ -1,4 +1,3 @@
-```lua
 local Players = game:GetService("Players")
 local lp = Players.LocalPlayer
 local pid = game.PlaceId
@@ -153,4 +152,4 @@ elseif url then
 else
     warn("Game not supported. PlaceId:", pid)
 end
-```
+
