@@ -7,7 +7,6 @@ local GameList = {
     [113290951185459] = "https://vxezestudio.online/api/scripts/script_82HVMJlLn6Omw/stream/init", -- Anime Dice
     [142823291] = "https://vxezestudio.online/api/scripts/script_r0VeAauEuUxPg/stream/init", -- Murder Mystery 2
     [98502499119821] = "https://vxezestudio.online/api/scripts/script_58QYU7BTt9Dg/stream/init", -- Heavyweight Fishing
-    [107778070777162] = "STEAL_EGG_SELECTOR", -- Steal A Egg: choose version
     [9872472334] = "https://api.xhider.xyz/files/v4/loaders/4955e760c9f9b495f25dcdb2ea54d7e5.lua", -- Evade
     [119091355492870] = "https://api.xhider.xyz/files/v4/loaders/5e11f8e2650b675806aaa7ccd238f1f3.lua", -- RockFruit Sea 1
     [132854526011923] = "https://api.xhider.xyz/files/v4/loaders/a0d3fb06848e377e3c760eee682ea5b8.lua", -- RockFruit Sea 2
@@ -16,6 +15,7 @@ local GameList = {
     [85211729168715] = "BLOX_FRUITS_SELECTOR",
     [79091703265657] = "BLOX_FRUITS_SELECTOR",
     [100117331123089] = "BLOX_FRUITS_SELECTOR",
+    [107778070777162] = "STEAL_EGG_SELECTOR", -- Steal A Egg: choose version
 }
 
 local function loadUrl(url)
