@@ -129,7 +129,7 @@ if url == "BLOX_FRUITS_SELECTOR" then
         },
         {
             label = "Main Farm",
-            url = "https://vxezestudio.online/api/scripts/script_KSNOqPAlOI2lc/stream/init"
+            url = "https://cathub.fr/load/3948fb170aefe233f8cf8d0023aa1f54"
         },
     })
 
