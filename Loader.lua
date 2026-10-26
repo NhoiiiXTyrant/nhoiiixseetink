@@ -122,7 +122,7 @@ end
 local url = GameList[pid]
 
 if url == "BLOX_FRUITS_SELECTOR" then
-    showSelector("NhoiiiX - Chọn Hub Blox Fruits", {
+    showSelector("NhoiiiX - Blox Fruits", {
         {
             label = "Aimbot PVP",
             url = "https://vxezestudio.online/api/scripts/script_Pa7uy5Z0mpKdN/stream/init"
@@ -134,7 +134,7 @@ if url == "BLOX_FRUITS_SELECTOR" then
     })
 
 elseif url == "STEAL_EGG_SELECTOR" then
-    showSelector("NhoiiiX - Chọn Steal A Egg", {
+    showSelector("NhoiiiX - Steal A Egg", {
         {
             label = "Steal A Egg - V6",
             url = "https://vxezestudio.online/api/scripts/script_LlZrCUbDIL2mG/stream/init"
