@@ -129,7 +129,7 @@ if url == "BLOX_FRUITS_SELECTOR" then
         },
         {
             label = "Main Farm",
-            url = "https://cathub.fr/load/3948fb170aefe233f8cf8d0023aa1f54"
+            url = "https://raw.githubusercontent.com/NhoiiiXTyrant/NhoiiiX-BloxFruit/refs/heads/main/BloxFruit.lua"
         },
     })
 
