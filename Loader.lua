@@ -8,12 +8,12 @@ local GameList = {
     [114326934417838] = "https://vxezestudio.online/api/scripts/script_7duMHGZTfKaWU/stream/init", -- Break and Steal an Egg
     [113290951185459] = "https://vxezestudio.online/api/scripts/script_82HVMJlLn6Omw/stream/init", -- Anime Dice
     [142823291] = "https://vxezestudio.online/api/scripts/script_r0VeAauEuUxPg/stream/init", -- Murder Mystery 2
-    [98502499119821] = "https://vxezestudio.online/api/scripts/script_58QYU7BTt9Dg/stream/init", -- Heavyweight Fishing
     [9872472334] = "https://api.xhider.xyz/files/v4/loaders/4955e760c9f9b495f25dcdb2ea54d7e5.lua", -- Evade
     [119091355492870] = "https://api.xhider.xyz/files/v4/loaders/5e11f8e2650b675806aaa7ccd238f1f3.lua", -- RockFruit Sea 1
     [132854526011923] = "https://api.xhider.xyz/files/v4/loaders/a0d3fb06848e377e3c760eee682ea5b8.lua", -- RockFruit Sea 2
     [82878101790702] = "https://api.xhider.xyz/files/v4/loaders/5e11f8e2650b675806aaa7ccd238f1f3.lua", -- Raid Rockfruitsea1
     [13772394625] = "https://api.xhider.xyz/files/v4/loaders/b264cc179514f7b3b7115beddfa456d9.lua", -- Blade Ball
+    [98502499119821] = "HEAVYWEIGHT_FISHING_SELECTOR", -- Heavyweight Fishing
     [107778070777162] = "STEAL_EGG_SELECTOR", -- Steal A Egg
     [85211729168715] = "BLOX_FRUITS_SELECTOR",
     [79091703265657] = "BLOX_FRUITS_SELECTOR",
@@ -145,6 +145,18 @@ elseif url == "STEAL_EGG_SELECTOR" then
         },
     })
 
+elseif url == "HEAVYWEIGHT_FISHING_SELECTOR" then
+    showSelector("NhoiiiX - Heavyweight Fishing", {
+        {
+            label = "NhoiiiX - V1",
+            url = "https://vxezestudio.online/api/scripts/script_58QYU7BTt9Dg/stream/init"
+        },
+        {
+            label = "NhoiiiX - Premium",
+            url = "https://vxezestudio.online/api/scripts/script_aVqhlNnUgiodZ/stream/init"
+        },
+    })
+    
 elseif url then
     loadUrl(url)
 
