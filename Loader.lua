@@ -213,8 +213,12 @@ if url == "BLOX_FRUITS_SELECTOR" then
             url = "https://vxezestudio.online/api/scripts/script_Pa7uy5Z0mpKdN/stream/init"
         },
         {
-            label = "Main Farm",
+            label = "NhoiiiX - BNN",
             url = "https://vxezestudio.online/api/scripts/script_KSNOqPAlOI2lc/stream/init"
+        },
+        {
+            label = "NhoiiiX - RedZ",
+            url = "https://vxezestudio.online/api/scripts/script_Y7S0cvMC4mGj7/stream/init"
         },
     })
 
