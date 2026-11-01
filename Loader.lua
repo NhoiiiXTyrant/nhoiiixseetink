@@ -84,7 +84,7 @@ local function fitText(label, maxSize)
     constraint.Parent = label
 end
 
-local function showSelector(titleText, options)
+local function showSelector(titleText, options, statusText)
     destroyOld()
 
     local BUTTON_H = 42
@@ -144,11 +144,12 @@ local function showSelector(titleText, options)
     status.Size = UDim2.new(1, -20, 0, STATUS_H)
     status.Position = UDim2.fromOffset(10, frameH - STATUS_H - 10)
     status.BackgroundTransparency = 1
-    status.Text = "Chọn một phiên bản"
+    status.Text = statusText or "Chọn một phiên bản"
     status.TextColor3 = Color3.fromRGB(190, 190, 200)
     status.TextSize = 12
     status.Font = Enum.Font.Gotham
     status.Parent = frame
+    fitText(status, 12)
 
     -- Chặn bấm nhiều lần / bấm nút khác trong lúc đang tải
     local busy = false
@@ -206,6 +207,7 @@ local function showSelector(titleText, options)
 end
 
 local url = GameList[pid]
+print("NhoiiiX Hub | PlaceId:", pid, "| entry:", url)
 
 if url == "BLOX_FRUITS_SELECTOR" then
     showSelector("NhoiiiX - Blox Fruits", {
@@ -248,4 +250,5 @@ elseif url then
 
 else
     warn("Game not supported. PlaceId:", pid)
+    showSelector("NhoiiiX Hub", {}, "Game chưa hỗ trợ - PlaceId: " .. tostring(pid))
 end
