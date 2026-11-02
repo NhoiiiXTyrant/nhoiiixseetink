@@ -14,9 +14,9 @@ local GameList = {
     [10260193230] = "https://vxezestudio.online/api/scripts/script_5daKaeLU3NWyw/stream/init", -- Meme Sea
     [98502499119821] = "HEAVYWEIGHT_FISHING_SELECTOR", -- Heavyweight Fishing
     [107778070777162] = "STEAL_EGG_SELECTOR", -- Steal A Egg
-    [85211729168715] = "BLOX_FRUITS_SELECTOR",
-    [79091703265657] = "BLOX_FRUITS_SELECTOR",
-    [100117331123089] = "BLOX_FRUITS_SELECTOR",
+    [85211729168715] = "BLOX_FRUITS_SELECTOR", -- Blox Fruit
+    [79091703265657] = "BLOX_FRUITS_SELECTOR", -- Blox Fruit
+    [100117331123089] = "BLOX_FRUITS_SELECTOR", -- Blox Fruit
 }
 
 local function loadUrl(url)
