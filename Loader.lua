@@ -225,11 +225,11 @@ if url == "BLOX_FRUITS_SELECTOR" then
 elseif url == "STEAL_EGG_SELECTOR" then
     showSelector("NhoiiiX - Steal A Egg", {
         {
-            label = "Steal A Egg - V6",
+            label = "NhoiiiX SAE - V1",
             url = "https://vxezestudio.online/api/scripts/script_LlZrCUbDIL2mG/stream/init"
         },
         {
-            label = "Steal A Egg - V7",
+            label = "NhoiiiX Finder",
             url = "https://vxezestudio.online/api/scripts/script_tj3Yg4VG0lxvp/stream/init"
         },
     })
