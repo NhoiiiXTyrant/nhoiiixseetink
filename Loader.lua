@@ -229,7 +229,7 @@ elseif url == "STEAL_EGG_SELECTOR" then
             url = "https://vxezestudio.online/api/scripts/script_LlZrCUbDIL2mG/stream/init"
         },
         {
-            label = "NhoiiiX Finder",
+            label = "NhoiiiX - Hop",
             url = "https://vxezestudio.online/api/scripts/script_tj3Yg4VG0lxvp/stream/init"
         },
     })
