@@ -23,7 +23,7 @@ local function loadUrl(url)
     local ok, err = pcall(function()
         local source = game:HttpGet(url)
         local fn, compileErr = loadstring(source)
-        assert(fn, compileErr or "Không biên dịch được script")
+        assert(fn, compileErr or "Unable to compile the script")
         fn()
     end)
 
@@ -141,7 +141,7 @@ local function showSelector(titleText, options, statusText)
     status.Size = UDim2.new(1, -20, 0, STATUS_H)
     status.Position = UDim2.fromOffset(10, frameH - STATUS_H - 10)
     status.BackgroundTransparency = 1
-    status.Text = statusText or "Chọn một phiên bản"
+    status.Text = statusText or "Select a version"
     status.TextColor3 = Color3.fromRGB(190, 190, 200)
     status.TextSize = 12
     status.Font = Enum.Font.Gotham
@@ -230,7 +230,7 @@ elseif url == "STEAL_EGG_SELECTOR" then
         },
         {
             label = "NhoiiiX - Hop",
-            url = "https://vxezestudio.online/api/scripts/script_tj3Yg4VG0lxvp/stream/init"
+            url = "https://raw.githubusercontent.com/NhoiiiXTyrant/nhoiiix-heavyweight-fishing/refs/heads/main/loader.lua"
         },
     })
 
